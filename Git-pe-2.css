@@ -1,11 +1,44 @@
-.nav-1 {
-    display: inline;
-  text-align: center;
-color: white;
+* {
+    margin: 0;
+padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    background: url("assets/");
+    background-size: cover;
+    overflow: hidden;
+
 
 }
-.nav-2 {
-     display: inline;
-    height: 10px;
-    width: 10px;
+
+header {
+    position: absolute;
+    top: 14pt;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 40px;
+    z-index: 1;
+
 }
+header .nav-2 img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
